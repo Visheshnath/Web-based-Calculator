@@ -1,0 +1,72 @@
+body{
+    background-image: url('cal2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head{
+    text-align: center;
+    color: rgb(229, 255, 0);
+    text-shadow: 5px 3px 5px rgb(255, 0, 0);
+    font-size: 50px;
+}
+
+.cont{
+    align-items: center;
+    margin: auto;
+}
+.button{
+    padding: 20px;
+    width: 56px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: blueviolet;
+    transition-duration: 0.4s;
+    color: white;
+}
+.button1{
+    padding: 20px;
+    width: 56px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(253, 165, 0);
+}
+.button1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: orangered;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.row{
+    margin: 8px 0;
+}
+.input{
+    font-size: 15px;
+    margin: 0;
+    padding: 9px 30px;
+    border: 2px solid red;
+    border-radius: 10px
+}
+
+.flex{
+    display: flex;
+} 
+.flex-col {
+    flex-direction: column;
+}
+.record{
+    border: 20px solid red;
+    margin: 50px;
+    display: flex;
+    flex-direction: column
+}
